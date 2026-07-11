@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfriConnect Summit 2026 | Accueil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">AfriConnect 2026</div>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pgm.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="jeu.html" class="special-link">Mini-Jeu</a></li>
+        </ul>
+        <button id="theme-toggle">🌙/☀️</button>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <h1>Le Sommet Tech Panafricain</h1>
+            <p>Dakar, Sénégal | 15 - 17 Novembre 2026</p>
+            <div class="countdown" id="countdown"></div>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">S'inscrire</a>
+                <a href="pgm.html" class="btn btn-secondary">Voir le programme</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="stats slide-in">
+            <div class="stat-item">
+                <h2 class="counter" data-target="1200">0</h2>
+                <p>Participants</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="counter" data-target="6">0</h2>
+                <p>Intervenants</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="counter" data-target="6">0</h2>
+                <p>Jours</p>
+            </div>
+            <div class="stat-item">
+                <h2 class="counter" data-target="4">0</h2>
+                <p>Pays</p>
+            </div>
+        </section>
+
+        <section class="why-participate fade-in">
+            <h2>Pourquoi participer ?</h2>
+            <div class="flex-container">
+                <div class="card">
+                    <h3>Réseautage</h3>
+                    <p>Rencontrez les leaders de la tech africaine.</p>
+                </div>
+                <div class="card">
+                    <h3>Innovation</h3>
+                    <p>Découvrez les startups de demain.</p>
+                </div>
+                <div class="card">
+                    <h3>Investissement</h3>
+                    <p>Connectez-vous avec des VC internationaux.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="speakers-preview fade-in">
+            <h2>Intervenants Vedettes</h2>
+            <div class="grid-container">
+                <!-- 4 Intervenants -->
+                <div class="speaker-card"><img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&w=300&q=80" alt="Speaker 1">
+                    <h3>Awa Fall</h3>
+                    <p>CEO, TechDakar</p><span>Sénégal</span></div>
+                <div class="speaker-card"><img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?auto=format&fit=crop&w=300&q=80" alt="Speaker 2">
+                    <h3>Kwame Osei</h3>
+                    <p>Lead Dev</p><span>Ghana</span></div>
+                <div class="speaker-card"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" alt="Speaker 3">
+                    <h3>Sarah Mensah</h3>
+                    <p>Data Scientist</p><span>Côte d'Ivoire</span></div>
+                <div class="speaker-card"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80" alt="Speaker 4">
+                    <h3>John Doe</h3>
+                    <p>Investor</p><span>Kenya</span></div>
+            </div>
+            <div class="center-btn"><a href="intervenants.html" class="btn btn-primary">Voir tous les intervenants</a></div>
+        </section>
+
+        <section class="sponsors fade-in">
+            <h2>Nos Sponsors</h2>
+            <div class="sponsor-tiers flex-container">
+                <div class="tier gold">
+                    <h3>Or</h3>
+                    <div class="sponsor-logo">TechCorp</div>
+                </div>
+                <div class="tier silver">
+                    <h3>Argent</h3>
+                    <div class="sponsor-logo">DevAfrica</div>
+                </div>
+                <div class="tier bronze">
+                    <h3>Bronze</h3>
+                    <div class="sponsor-logo">StartupHub</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content flex-container">
+            <div>
+                <h4>AfriConnect</h4>
+                <p>Le futur s'écrit en Afrique.</p>
+            </div>
+            <div>
+                <h4>Liens rapides</h4>
+                <ul>
+                    <li><a href="contact.html">Inscription</a></li>
+                    <li><a href="pgm.html">Programme</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Suivez-nous</h4>
+                <a href="https://instagram.com/israel2.3" target="_blank">Instagram (@israel2.3)</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> AfriConnect Summit. Copyright By Agent23.</p>
+        </div>
+    </footer>
+    <button id="back-to-top">↑</button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
