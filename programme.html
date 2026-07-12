@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo"><img src="images/main.svg" alt="Logo AfriConnect" class="logo-image"></div>
+        <div class="menu-toggle" id="mobile-menu">☰</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programme.html" class="active-link">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="jeu.html" class="special-link">Mini-Jeu</a></li>
+        </ul>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <header class="hero-internal fade-in">
+        <div class="breadcrumb">Accueil > Programme</div>
+        <h1>Programme du Sommet</h1>
+        <p>Découvrez les sessions prévues pour ces 6 jours d’innovation et de networking.</p>
+    </header>
+
+    <main>
+        <section class="schedule-section slide-in">
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-day="1">Jour 1</button>
+                    <button class="tab-btn" data-day="2">Jour 2</button>
+                    <button class="tab-btn" data-day="3">Jour 3</button>
+                    <button class="tab-btn" data-day="4">Jour 4</button>
+                    <button class="tab-btn" data-day="5">Jour 5</button>
+                    <button class="tab-btn" data-day="6">Jour 6</button>
+                </div>
+            </div>
+
+            <div class="tab-content active fade-in" id="jour-1">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>Keynote d’ouverture</h3>
+                        <p><strong>09:00 - 10:30</strong></p>
+                        <p>Le futur de l’Afrique à travers l’innovation et l’entrepreneuriat.</p>
+                        <span>Awa.S</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>IA générative & réalités locales</h3>
+                        <p><strong>11:00 - 12:30</strong></p>
+                        <p>Comment adapter l’intelligence artificielle aux besoins des marchés africains.</p>
+                        <span>Hamed Mensah</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Financer sa startup</h3>
+                        <p><strong>14:00 - 15:30</strong></p>
+                        <p>Panel sur les levées de fonds, l’investissement et la croissance.</p>
+                        <span>Franck.N</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-content fade-in" id="jour-2">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>Fintech & inclusion financière</h3>
+                        <p><strong>10:00 - 11:30</strong></p>
+                        <p>Solutions numériques pour élargir l’accès aux services financiers.</p>
+                        <span>Kwame Osei</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Atelier UX/UI</h3>
+                        <p><strong>13:30 - 15:00</strong></p>
+                        <p>Design et expérience utilisateur pour les marchés mobiles africains.</p>
+                        <span>Hamed Mensah</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-content fade-in" id="jour-3">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>GreenTech & climat</h3>
+                        <p><strong>09:30 - 11:00</strong></p>
+                        <p>Innovation technologique au service de l’environnement et de la transition.</p>
+                        <span>Awa.S</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Clôture & Hackathon</h3>
+                        <p><strong>14:00 - 16:00</strong></p>
+                        <p>Présentation des projets et remise des prix des meilleures solutions.</p>
+                        <span>Robert.D</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-content fade-in" id="jour-4">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>Écosystème startup</h3>
+                        <p><strong>10:00 - 11:30</strong></p>
+                        <p>Rencontres, opportunités et accompagnement des jeunes entreprises.</p>
+                        <span>Franck.N</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Workshops d’innovation</h3>
+                        <p><strong>13:30 - 15:30</strong></p>
+                        <p>Ateliers pratiques autour des outils de transformation digitale.</p>
+                        <span>Hamed Mensah</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-content fade-in" id="jour-5">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>Data & gouvernance</h3>
+                        <p><strong>09:00 - 10:30</strong></p>
+                        <p>Bonnes pratiques autour de la collecte, de l’analyse et de la protection des données.</p>
+                        <span>Kwame Osei</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Networking premium</h3>
+                        <p><strong>14:00 - 16:00</strong></p>
+                        <p>Moments de rencontre entre investisseurs, entrepreneurs et partenaires.</p>
+                        <span>Awa.S</span>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-content fade-in" id="jour-6">
+                <div class="grid-container program-grid">
+                    <article class="speaker-card program-card">
+                        <h3>Foire aux opportunités</h3>
+                        <p><strong>09:30 - 11:00</strong></p>
+                        <p>Présentation des projets phares et des initiatives à fort impact.</p>
+                        <span>Franck.N</span>
+                    </article>
+                    <article class="speaker-card program-card">
+                        <h3>Clôture du sommet</h3>
+                        <p><strong>15:00 - 16:30</strong></p>
+                        <p>Conclusion, engagements et prochaines étapes pour les acteurs du secteur.</p>
+                        <span>Aphie.N</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="thematics fade-in">
+            <h2 class="thematics-title">Thématiques Abordées</h2>
+            <div class="grid-container">
+                <div class="speaker-card theme-card">
+                    <h3>IA & Tech</h3>
+                    <p>Les avancées de l’intelligence artificielle sur le continent.</p>
+                </div>
+                <div class="speaker-card theme-card">
+                    <h3>Business</h3>
+                    <p>Investissements, levées de fonds et croissance.</p>
+                </div>
+                <div class="speaker-card theme-card">
+                    <h3>Design</h3>
+                    <p>UX/UI, design thinking et création numérique.</p>
+                </div>
+                <div class="speaker-card theme-card">
+                    <h3>Data</h3>
+                    <p>Gestion, analyse et sécurité des données massives.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> AfriConnect Summit. Copyright By Agent23.</p>
+        </div>
+    </footer>
+    <button id="back-to-top">↑</button>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
