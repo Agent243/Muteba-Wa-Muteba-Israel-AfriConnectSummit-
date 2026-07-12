@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervenants au programmes</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo"><img src="images/main.svg" alt="Logo AfriConnect" class="logo-image"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pgm.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="jeu.html" class="special-link">Mini-Jeu</a></li>
+        </ul><button id="theme-toggle">🌙</button></nav>
+
+    <header class="hero-internal">
+        <div class="breadcrumb">Accueil > Intervenants</div>
+        <h1>Nos Intervenants</h1>
+    </header>
+
+    <main>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="ia">IA & Tech</button>
+            <button class="filter-btn" data-filter="business">Business</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="grid-container speakers-grid">
+            <div class="speaker-card" data-category="business"><img src="images/robert.jpg" alt="Sp1">
+                <h2>Robert.D</h2>
+                <p>Business</p><span>Sénégal</span></div>
+            <div class="speaker-card" data-category="ia"><img src="images/franck.jpg" alt="Sp2">
+                <h2>Franck.N</h2>
+                <p>IA & Tech</p><span>Congo</span></div>
+            <div class="speaker-card" data-category="design"><img src="images/aphie.jpg" alt="Sp3">
+                <h2>Aphie.N</h2>
+                <p>Design</p><span>Congo</span></div>
+            <div class="speaker-card" data-category="business"><img src="images/aza.jpg" alt="Sp1">
+                <h2>Awa.S</h2>
+                <p>Business</p><span>Sénégal</span></div>
+            <div class="speaker-card" data-category="ia"><img src="images/kwame.jpg" alt="Sp2">
+                <h2>Kwame Osei</h2>
+                <p>IA & Tech</p><span>Cap Vert</span></div>
+            <div class="speaker-card" data-category="design"><img src="images/hamed.jpg" alt="Sp3">
+                <h2>Hamed Mensah</h2>
+                <p>Design</p><span>Algerie</span></div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo"><img src="images/main.svg" alt="Logo AfriConnect" class="logo-image"></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="jeu.html" class="special-link">Mini-Jeu</a></li>
+        </ul><button id="theme-toggle">🌙</button></nav>
+
+    <header class="hero-internal">
+        <div class="breadcrumb">Accueil > Contact</div>
+        <h1>Inscription & Contact</h1>
+    </header>
+
+    <main class="contact-layout flex-container">
+        <div class="form-container">
+            <form id="contact-form">
+                <div class="input-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom complet" required>
+                    <span class="error-msg">Obligatoire</span>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="nom@exemple.com" required>
+                    <span class="error-msg">Email incorrect</span>
+                </div>
+                <div class="input-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="text" id="tel" name="tel" placeholder="Ex. 775551122" required pattern=".{8,}">
+                    <span class="error-msg">Numéro de téléphone invalide (il faut 8 chiffres minimum)</span>
+                </div>
+                <div class="input-group">
+                    <label for="type">Type de participation</label>
+                    <select id="type" name="type"><option value="dev">Développeur</option><option value="invest">Investisseur</option></select>
+                </div>
+                <div class="input-group">
+                    <label for="pays">Pays</label>
+                    <select id="pays" name="pays"><option value="sn">Sénégal</option><option value="cd">Congo (République Démocratique)</option><option value="rc">Congo (République)</option></select>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Décrivez votre demande" required minlength="20"></textarea>
+                    <span class="error-msg">Vous n'avez pas tapé assez de caractères..! il faut au moins 20 caractères</span>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <div id="success-msg" class="success-msg">Inscription éffectuée avec succès !</div>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Nous contacter directement</h2>
+            <a href="mailto:agent210601@gmail.com"><strong>Email :</strong> agent210601@gmail.com</a>
+            <a href="https://wa.me/221710080086" target="_blank" rel="noopener noreferrer"><strong>WhatsApp :</strong> +221710080086</a>
+
+            <h2 class="faq-title">FAQ</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <input type="checkbox" id="faq1">
+                    <label for="faq1" class="accordion-title">L'événement est-il gratuit ?</label>
+                    <div class="accordion-content">
+                        <p>Non, l'accès requiert l'achat d'un pass d'inscription, disponible en ligne ou sur place.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <input type="checkbox" id="faq2">
+                    <label for="faq2" class="accordion-title">Y a-t-il des repas inclus ?</label>
+                    <div class="accordion-content">
+                        <p>Oui, un déjeuner est inclus pour les participants ayant réservé leur place à l'avance.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <input type="checkbox" id="faq3">
+                    <label for="faq3" class="accordion-title">Puis-je assister à plusieurs jours ?</label>
+                    <div class="accordion-content">
+                        <p>Oui, vous pouvez choisir un accès au jour unique ou à la participation complète sur plusieurs jours.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <input type="checkbox" id="faq4">
+                    <label for="faq4" class="accordion-title">Est-ce que des visites de réseau sont prévues ?</label>
+                    <div class="accordion-content">
+                        <p>Oui, des sessions de networking et des rencontres avec des partenaires sont prévues tout au long de l'événement.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Correction apportée ici : utilisation de style="width: 100%;" au lieu de width="100%" -->
+            <iframe title="Carte de localisation du sommet" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-17.4677!3d14.6928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQxJzM0LjEiTiAxN8KwMjgnMDMuNyJX!5e0!3m2!1sfr!2ssn!4v1620000000000!5m2!1sfr!2ssn"
+                style="width: 100%;" height="250" class="map-frame" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
