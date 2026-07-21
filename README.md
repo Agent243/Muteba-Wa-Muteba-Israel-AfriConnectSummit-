@@ -1,5 +1,4 @@
-# AfriConnect Summit 
-[AfriSummit](https://agent243.github.io/Muteba-Wa-Muteba-Israel-AfriConnectSummit-/)
+# [AfriConnect Summit](https://agent243.github.io/Muteba-Wa-Muteba-Israel-AfriConnectSummit-/)
 
 Bienvenue dans le projet AfriConnect Summit, un site web moderne et responsive développé en HTML, CSS et JavaScript pur.
 
